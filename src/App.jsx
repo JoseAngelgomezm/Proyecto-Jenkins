@@ -30,6 +30,7 @@ function App() {
         
         Aqui hay un cambio que he realizado para ver si funciona el pipeline de jenkins
       </p>
+      <p>Esta linea ha sido escrita por Juan Diego</p>
     </>
   )
 }
