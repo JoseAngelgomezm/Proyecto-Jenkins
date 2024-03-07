@@ -1,20 +1,19 @@
 pipeline{
 	agent any
-	
 	stages{
 	
-		stage("building"){
+		stage('building'){
 			steps{
-				echo "compilando proyecto"
-				npm install
-				npm run build
+				echo 'compilando proyecto'
+				sh 'npm install'
+				sh 'npm run build'
 			}
 		}
 		
-		stage("copy files"){
+		stage('copy files'){
 			steps{
-				echo "copiando ficheros"
-				sudo cp -r /dist/* /var/www/html/ProyectoReact/
+				echo 'copiando ficheros'
+				sh 'sudo cp -r /dist/* /var/www/html/ProyectoReact/'
 			}
 		}
 		
