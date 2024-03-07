@@ -13,7 +13,7 @@ pipeline{
 		stage('copy files'){
 			steps{
 				echo 'copiando ficheros'
-				sh 'cp -r /dist/* /var/www/html/ProyectoReact/'
+				sh 'cp -r dist/* /var/www/html/ProyectoReact/'
 			}
 		}
 		
