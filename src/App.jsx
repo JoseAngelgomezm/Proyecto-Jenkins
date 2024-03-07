@@ -27,9 +27,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-        
-        Aqui hay un cambio que he realizado para ver si funciona el pipeline de jenkins
       </p>
+      <p>Esta linea ha sido escrita por Jose Angel</p>
       <p>Esta linea ha sido escrita por Juan Diego</p>
     </>
   )
