@@ -31,6 +31,7 @@ function App() {
       <p>Esta linea ha sido escrita por Jose Angel</p>
       <p>Esta linea ha sido escrita por Juan Diego</p>
       <p>Esta es la nueva linea</p>
+      <p>Esta es la linea para el video</p>
     </>
   )
 }
